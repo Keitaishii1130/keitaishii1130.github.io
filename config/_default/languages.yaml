@@ -1,22 +1,50 @@
 # Languages
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
+ja:
+  locale: ja-jp
+  contentDir: content/ja
+  title: 'Keita Ishii'
+  params:
+    description: '言語学・統語論の研究者ポートフォリオ'
+  menu:
+    main:
+      - name: ホーム
+        url: '#about'
+        weight: 10
+      - name: 経歴
+        url: '#experience'
+        weight: 20
+      - name: 業績
+        url: '#publications'
+        weight: 30
+      - name: 発表
+        url: '#talks'
+        weight: 40
+
+# Second language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  contentDir: content/en
+  title: 'Keita Ishii'
+  params:
+    description: 'Linguistics Research Portfolio'
+  menu:
+    main:
+      - name: Home
+        url: '#about'
+        weight: 10
+      - name: Experience
+        url: '#experience'
+        weight: 20
+      - name: Publications
+        url: '#publications'
+        weight: 30
+      - name: Talks
+        url: '#talks'
+        weight: 40
